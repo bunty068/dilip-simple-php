@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  dilip_simple_php:
+    image: dilip-simple-php:latest
+    container_name: dilip_simple_php
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html/
